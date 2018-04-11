@@ -1,0 +1,22 @@
+* {
+	font-family: 'Merriweather', serif;
+	padding: 10px;
+}
+#article {
+	border: 1px solid #325063;
+}
+#sub {
+	font-style: italic;
+}
+#sub:first-letter {
+	font-size: 200%;
+}
+img {
+	height: 250px;
+	width: 350px;
+	float: left;
+}
+#quote {
+	font-style: italic;
+	font-size: 120%;
+}
