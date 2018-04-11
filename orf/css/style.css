@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	margin-left: 6px;
+
 	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 body {
@@ -20,7 +20,7 @@ header {
 }
 #logo1 {
 	position: relative;
-	left: 35%;
+	left: 15%;
 	margin-top: 14px;
 	text-align: center;
 	width: 62px;
@@ -28,7 +28,7 @@ header {
 }
 #logo2 {
 	position: relative;
-	left: 35%;
+	left: 15%;
 	width: 101px;
 	height: 39px;
 }
@@ -43,14 +43,16 @@ ul {
 	list-style: none;
 }
 nav {
-	height: 27px;
+	height: 32px;
 	width: 800px;
 	background-color: #4572A1;
-	margin-top: 30px;	
+	margin-top: 30px;
+	margin-left: 24px;	
 }
 nav li {
 	background-color: #4572A1;
-	padding-top: 5px;
+	padding-top: 7px;
+	padding-left: 15px;
 	float: left;
 	display: inline;
 }
@@ -58,23 +60,65 @@ a {
 	text-decoration: none;
 	background-color: #4572A1;
 	color: white;
+	font-size: 14px;
 
 
 }
 #ORF {
-	padding-left: 25px;
+	padding-left: 120px;
+
 }
-.imgcontent {
-	float: left;
+.imgmain {
+	top: 124px;
+	left:24px;
+	position: fixed;
+	background-color: #5F8EC3;
+	width: 800px;
+	height: 1500px;
 }
-.squar {
-	float: left;
-	margin: 5px 5px 0px 5px;
-	width: 156px;
+.imgm{
+	position: fixed;
+
+}
+.highsquarimg{
+	width:156px;
 	height: 247px;
+	background-color: yellow;
 }
-#secondimg {
-	margin: 5px 5px 0px 5px;
-	width: 317px;
+
+.squarimg{
+	width:156px;
 	height: 121px;
-	}
+}
+.rectangleimg{
+	width:317px;
+	height: 121px;
+}
+#firstimg {
+	width:156px;
+	height: 247px;
+
+	content:url(https://orf.at/static/images/site/news/20180415/trump_syrien_raketenangriff_2h_ap.4812822.jpg);
+}
+#secondimg{
+	left: 184px;
+	content:url(https://orf.at/static/images/site/news/20180415/facebook_zuckerberg_zweite_anhoerung_2q_afp.4812883.jpg);
+}
+#thirdimg {
+	left: 506px;
+	content:url(https://orf.at/static/images/site/news/20180415/link_sport_fus_cl_stand_1k_afp.4812897.jpg);
+}
+#fourthimg {
+	left: 668px;
+	content:url(https://orf.at/static/images/site/news/20180415/saudi_arabien_fashion_week_2h_afp.4812803.jpg);
+}
+#fithimg{
+	left: 184px;
+	top: 250px;
+	content:url(https://orf.at/static/images/site/news/20180415/link_oest_ebus_wien_1k_a.4812888.jpg);
+}
+#sixthimg{
+	top: 250px;
+	left: 346px;
+	content:url(https://orf.at/static/images/site/news/20180415/deutschklassen_kritik_volksschueler_2q_cka.4812867.jpg);
+}
